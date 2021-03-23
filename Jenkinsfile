@@ -13,7 +13,7 @@ pipeline {
 
     stage('Clone Terraform manifest and Ansible Playbook form GitHub') {
       steps{
-        git 'https://github.com/mas0lik/terraform-docker-v2.git'
+        git 'https://github.com/dimav47/googlevs.git'
       }
     }
 
